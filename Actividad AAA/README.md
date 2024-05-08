@@ -279,7 +279,7 @@ public class CalculatorTest {
 
 ## Ejecución de las pruebas
 Luego de crear las pruebas para cada método, escribo el comando ```./gradlew test``` para ejecutarlas   
-![CapturaEjecucionGradlweTest](Image/CapturaEjecucionGradlweTest.png)  
+![CapturaEjecucionGradlweTest](Image/CapturaEjecucionGradlewTest.png)  
 
 Al ejecutar las pruebas apretando el botón de run se obtiene lo siguiete:  
 ![CapturaEjecucionTests](Image/CapturaEjecucionTests.png)  
