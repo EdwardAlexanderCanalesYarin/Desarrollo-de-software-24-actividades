@@ -1,6 +1,6 @@
 # Actividad AAA
-## Implementacion de las pruebas
-Se creo los 20 pruebas unitarias, estos abarcan todos los casos limites  
+## Implementación de las pruebas
+Se creó 20 pruebas unitarias, estos abarcan todos los casos límites  
 ``` java
 package org.example;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -277,11 +277,11 @@ public class CalculatorTest {
 }
 ```
 
-## Ejecucion de las pruebas
-Luego de crear las pruebas para cada metodo, escribo el comando ```./gradlew test```.  
-![Bundle](Image/CapturaEjeccucionGradlweTest.png)  
+## Ejecución de las pruebas
+Luego de crear las pruebas para cada método, escribo el comando ```./gradlew test``` para ejecutarlas   
+![CapturaEjecucionGradlweTest](Image/CapturaEjecucionGradlweTest.png)  
 
-Al ejecutar las pruebas apretando el boton de run se obtiene lo siguiete:  
-![Bundle](Image/CapturaEjeccucionTests.png)  
+Al ejecutar las pruebas apretando el botón de run se obtiene lo siguiete:  
+![CapturaEjecucionTests](Image/CapturaEjecucionTests.png)  
 
-Aqui se puede ver que pasaron las 20 pruebas unitarias. 
+Aquí se puede ver que pasaron las 20 pruebas unitarias. 
