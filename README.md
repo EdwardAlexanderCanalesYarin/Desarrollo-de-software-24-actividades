@@ -14,7 +14,8 @@
 |  10 | Ejemplo de TDD                                            |               Pendiente                     |  
 |  11 | RGR y TDD	                                                |               Pendiente                     |
 |  12 | Análisis de codigo estatico	                              |               Pendiente                     |
-|  13 | Calidad de software a través de escenarios                |               Pendiente                     |
-|  14 | Olores de codigo, refactorizacion, principios de diseño   |               Pendiente                     |
-|  15 | Métricas de calidad de software				                    |               Pendiente                     |
+|  13 | Olores de codigo, refactorizacion, principios de diseño   |               Pendiente                     |
+|  14 | Métricas de calidad de software				                    |               Pendiente                     |
+|  15 | Calidad de software a través de escenarios                |               Pendiente                     |
+|  16 | Estilos de código, análisis estático y comentarios        |               Pendiente                     |
 
