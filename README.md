@@ -17,5 +17,5 @@
 |  13 | Olores de codigo, refactorizacion, principios de diseño   |               Pendiente                     |
 |  14 | Métricas de calidad de software				                    |               Pendiente                     |
 |  15 | Calidad de software a través de escenarios                |               Pendiente                     |
-|  16 | Estilos de código, análisis estático y comentarios        |               Pendiente                     |
+|  16 | Estilos de código, análisis estático y comentarios        |               En proceso                    |
 
