@@ -18,7 +18,7 @@ def CalcularPotencia(a,b):
 	producto = math.pow(a,b)
 	return producto
 ``` 
-### CONSTANTS:
+### Constants:
 Este elemento en la guía nos dice "Las constantes generalmente se definen a nivel de módulo y se escriben en letras mayúsculas con guiones bajos que separan las palabras. Los ejemplos incluyen MAX_OVERFLOW y TOTAL." estoy de acuerdo con ello porque esta sintaxis nos ayuda a una identificacion facil de constantes, asi reconocemos que variables no debemos modificar para evitar la mala practica
 
 ``` python
@@ -32,10 +32,16 @@ def calcular_area_circulo(radio):
     return PI * radio ** 2
 ```
 
-### 
+### Naming convention - Function and variable names
+Este elemento en la guía nos dice "Los nombres de las funciones deben estar en minúsculas, con las palabras separadas por guiones bajos según sea necesario para mejorar la legibilidad." estoy de acuerdo con ello porque es importante la legibilidad de codigo pues asi otros programadores podran leer facilmente el codigo y ahorrar tiempo.
+
+``` python
+def calcular_area_rectangulo(ancho, alto):
+    return ancho * alto
+``` 
 
 Los 3 elementos de la guía que se seleccionó que no estoy de acuerdo son:  
-### Comments
+### 
 
 ### 
 
