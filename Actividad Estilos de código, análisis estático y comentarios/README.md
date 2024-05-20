@@ -18,7 +18,19 @@ def CalcularPotencia(a,b):
 	producto = math.pow(a,b)
 	return producto
 ``` 
-### 
+### CONSTANTS:
+Este elemento en la guía nos dice "Las constantes generalmente se definen a nivel de módulo y se escriben en letras mayúsculas con guiones bajos que separan las palabras. Los ejemplos incluyen MAX_OVERFLOW y TOTAL." estoy de acuerdo con ello porque esta sintaxis nos ayuda a una identificacion facil de constantes, asi reconocemos que variables no debemos modificar para evitar la mala practica
+
+``` python
+# constantes.py
+
+PI = 3.14159
+
+from constantes import PI
+
+def calcular_area_circulo(radio):
+    return PI * radio ** 2
+```
 
 ### 
 
