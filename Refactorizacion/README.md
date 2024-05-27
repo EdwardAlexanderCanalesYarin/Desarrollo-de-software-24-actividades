@@ -304,5 +304,5 @@ public class ClassInfo {
 }
 ```
 
-Al ejecutar se obtiene un LCOM igual a -3, al ser negativo se considera LCOM igual a 0, esto significa una alta cohesion
+Al ejecutar se obtiene un LCOM igual a -3, al ser negativo se considera LCOM igual a 0, esto significa una alta cohesion  
 ![CapturaLCOM](Image/CapturaLCOM.png)  
