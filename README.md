@@ -15,11 +15,11 @@
 |  11 | RGR y TDD	                                                |               Pendiente                     |
 |  12 | Análisis de codigo estatico	                              |               Pendiente                     |
 |  13 | Olores de codigo, refactorización, principios de diseño   |               Pendiente                     |
-|  14 | Métricas de calidad de software				                    |               Pendiente                     |
+|  14 | Métricas de calidad de software				                    |               En proceso                    |
 |  15 | Calidad de software a través de escenarios                |               Pendiente                     |
 |  16 | Estilos de código, análisis estático y comentarios        |               En proceso                    |
 |  17 | TDD, SOLID y Refactorización                              |               Pendiente                     |
-|  18 | Refactorización                                           |               Pendiente                     |
+|  18 | Refactorización                                           |               En proceso                    |
 |  19 | Seguridad en desarrollo de software                       |               Pendiente                     |
 |  20 | Pruebas basadas en especificaciones                       |               Pendiente                     |
 |  21 | Pruebas estructurales y cobertura de código               |               Pendiente                     |
