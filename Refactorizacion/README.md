@@ -165,3 +165,69 @@ public class Department {
     }
 }
 ```
+
+Para calcular el factor de acoplamiento se implementa el siguiente codigo
+``` java
+package org.example;
+
+public class Main {
+    public static void main(String[] args) {
+        /*
+        EmployeeManager
+        Employee
+        Department
+        */
+        Module employeeManager = new Module("EmployeeManager");
+        Module employee = new Module("Employee");
+        Module department = new Module("Department");
+
+        employeeManager.addDependency(employee);
+        employeeManager.addDependency(department);
+
+        Module[] modules = {employeeManager,employee,department};
+
+        int totalDependencies = 0;
+        for (Module module : modules) {
+            totalDependencies += module.getDependencies().size();
+        }
+
+        int totalModules = modules.length;
+
+        double factor_acoplamiento = (double) totalDependencies / (totalModules * (totalModules - 1));
+        System.out.println("Factor de acoplamiento: " + factor_acoplamiento);
+    }
+}
+```
+
+``` java
+package org.example;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Module {
+    private String name;
+    private Set<Module> dependencies;
+
+    public Module(String name) {
+        this.name = name;
+        this.dependencies = new HashSet<>();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void addDependency(Module module) {
+        dependencies.add(module);
+    }
+
+    public Set<Module> getDependencies() {
+        return dependencies;
+    }
+}
+```
+
+Al ejecutar se obtiene un factor de acoplamiento igual a 0.3333333333333333  
+![CapturaFactorDeAcoplamiento](Image/CapturaFactorDeAcoplamiento.png)  
+Como el factor de acoplamiento varia entre 0 y 1, entonces 0.3333333333333333 es un bajo acoplamiento por lo tanto tiene mayor modularidad y mantenibilidad
