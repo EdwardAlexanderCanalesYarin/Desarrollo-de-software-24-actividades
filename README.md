@@ -23,5 +23,5 @@
 |  19 | Seguridad en desarrollo de software                       |               Pendiente                     |
 |  20 | Pruebas basadas en especificaciones                       |               Pendiente                     |
 |  21 | Pruebas estructurales y cobertura de código               |               Pendiente                     |
-
+|  22 | Mocks y stubs                                             |               Pendiente                     |
 
