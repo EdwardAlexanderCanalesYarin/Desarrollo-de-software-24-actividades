@@ -24,4 +24,5 @@
 |  20 | Pruebas basadas en especificaciones                       |               Pendiente                     |
 |  21 | Pruebas estructurales y cobertura de código               |               Pendiente                     |
 |  22 | Mocks y stubs                                             |               Pendiente                     |
+|  23 | Usando Mockito                                            |               Pendiente                     |
 
