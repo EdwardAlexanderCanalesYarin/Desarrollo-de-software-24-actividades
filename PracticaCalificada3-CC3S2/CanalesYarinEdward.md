@@ -136,3 +136,55 @@ En la imagen se observa que los 5 tests pasaron (estan de color verde)
 Luego ejecuto la clase principal Juego  
 ![PC3CapturaEjecucionClaseJuegoSprint1](Image/PC3CapturaEjecucionClaseJuegoSprint1.png)  
 En la imagen se oberva que la salida son descripciones de la habitacion actual donde se encuentra el jugador, primero inicia en la habitacion numero 4 y luego se cambia a la habitacion numero 1
+
+## Sprint 2
+Escribi algunas pruebas para el segundo sprint 2  
+``` java
+// TESTS Sprint 2
+    // Recogida de objetos
+    @Test
+    public void RecogeObjetoCantidadValidaTest(){
+        // Arrange
+        int n_objetos_recogidos = 3;
+        Objeto objeto = new Objeto(n_objetos_recogidos);
+        // Act
+        int resultado = objeto.getN_Objetos_Recogidos();
+        // Assert
+        assertEquals(3, resultado, "Deberia haber recogido 3 objetos");
+    }
+    @Test
+    public void RecogeObjetoCantidadInvalidaTest(){
+        // Arrange
+        int n_objetos_recogidos = -1;
+        Objeto objeto = new Objeto(n_objetos_recogidos);
+        // Act y Assert
+        assertThrows(ArithmeticException.class, ()->{
+            objeto.getN_Objetos_Recogidos();
+        });
+    }
+    // Gestion de inventario
+    @Test
+    public void GestionDeInventarioRemoverObjetoTest(){
+        // Arrange
+        Objeto objeto_removido = new Objeto();
+        Jugador jugador = new Jugador();
+        // Act
+        jugador.RemoverObjeto(objeto_removido);
+        Objeto resultado = juador.UltimoObjetoRemovido();
+        // Assert
+        assertEquals(objeto_removido, resultado, "Deberia remorse objeto_removido");
+    }
+    @Test
+    public void GestionDeInventarioAgregarObjetoTest(){
+        // Arrange
+
+    }
+    // Mecanica de resolucion de acertijos
+    @Test
+    public void MecanicaDeResolucionDeAcertijosTest(){
+
+    }
+```
+
+![PC3CapturaPruebasFallidasSprint2](Image/PC3CapturaPruebasFallidasSprint2.png)  
+En la imagen se observa que los tests no pasaron (estan en color rojo)
