@@ -21,8 +21,12 @@
 |  17 | TDD, SOLID y Refactorización                              |               Pendiente                     |
 |  18 | Refactorización                                           |               En proceso                    |
 |  19 | Seguridad en desarrollo de software                       |               Pendiente                     |
-|  20 | Pruebas basadas en especificaciones                       |               Pendiente                     |
-|  21 | Pruebas estructurales y cobertura de código               |               Pendiente                     |
-|  22 | Mocks y stubs                                             |               Pendiente                     |
-|  23 | Usando Mockito                                            |               Pendiente                     |
+|  20 | Mocks y stubs                                             |               Pendiente                     |
+|  21 | Usando Mockito                                            |               Pendiente                     |
+|  22 | Pruebas basadas en especificaciones                       |               Pendiente                     |
+|  23 | Pruebas estructurales y cobertura de código               |               Pendiente                     |
+|  24 | Configuraciones iniciales                                 |               Pendiente                     |
+|  25 | Play with Docker                                          |               Pendiente                     |
+|  26 | Play with Kubernetes                                      |               Pendiente                     |
+
 
