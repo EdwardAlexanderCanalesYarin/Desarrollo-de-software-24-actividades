@@ -28,5 +28,8 @@
 |  24 | Configuraciones iniciales                                 |               Pendiente                     |
 |  25 | Play with Docker                                          |               Pendiente                     |
 |  26 | Play with Kubernetes                                      |               Pendiente                     |
+|  27 | Docker                                                    |               Pendiente                     |
+|  28 | Herramientas de microservicios                            |               Pendiente                     |
+|  29 | Patrones de diseño de microservicios                      |               Pendiente                     |
 
 
