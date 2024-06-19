@@ -10,7 +10,7 @@ Y las interfaces:
 EnemyFactory: Interfaz para la creación de enemigos (concretas: BasicEnemyFactory, BossEnemyFactory).  
 TowerFactory: Interfaz para la creación de torres (concretas: CannonTowerFactory, LaserTowerFactory).  
 
-La siguiente imagen muestra una primera ejecucion de la inicializacion del mapa con las posiciones de los caminos para los enemigos (C), posicion de la Base (B) y las posiciones vacias (| |)
-![CapturaImg1](Image/PC4Img1.png)
-Aun me falta mejorar el flujo del juego
+La siguiente imagen muestra una primera ejecucion de la inicializacion del mapa con las posiciones de los caminos para los enemigos (C), posicion de la Base (B) y las posiciones vacias (| |)  
+![CapturaImg1](Image/PC4Img1.png)  
+Aun me falta mejorar el flujo del juego  
 
