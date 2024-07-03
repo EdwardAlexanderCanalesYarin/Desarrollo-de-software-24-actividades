@@ -29,4 +29,39 @@ a los principios de diseño limpio.
 o Monitorear la cobertura de pruebas y la complejidad del código en el entorno Dockerizado.  
 o Utilizar herramientas de análisis de código para asegurar la calidad.  
 
+Escribo el Dockerfile y lo ubico en el mismo nivel donde se encuentra el archivo build.gradle  
+``` java
+# Utilizar la imagen oficial de OpenJDK como base
+FROM openjdk:17
+
+# Crear y cambiar al directorio /app
+WORKDIR /app
+
+# Copiar los archivos del proyecto al contenedor
+COPY . /app
+
+# Compilar el proyecto
+RUN chmod +x ./gradlew build
+
+# Establecer el comando predeterminado para ejecutar la aplicación
+CMD ["java", "-cp", "build/classes/java/main", "sistemadeeventosclimaticos.SistemaDeEventosClimaticos"]
+```
+
+![Img1](Image/EFSprint2Img1.png)  
+
+Una vez creado el Dockerfile crearemos una imagen en base de dicho Dockerfile ejecutando el siguiente comando:  
+```docker build -t myapp:sistemadeeventosclimaticos .```  
+Nota1: cambiar de directorio y ubicarse en el directorio donde se encuentra su aplicacion.  
+Nota2: es importante el (.) al final pues ello indica que se creara la imagen en base al Dockerfile que se ubica en la ruta actual.  
+
+![Img2](Image/EFSprint2Img2.png)  
+Ahora para verificar la creacion de dicha imagen ejecutamos el siguiente comando  
+```docker images```  
+
+![Img3](Image/EFSprint2Img3.png)  
+Aqui se muestra el nombre del repositorio que le asigne, el tag, el id de la imagen, hace cuanto fue creado y el size  
+
+
+
+
 
