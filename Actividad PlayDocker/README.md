@@ -1,8 +1,8 @@
 # Actividad PlayDocker
 Para iniciar sesión en Play With Docker (PWD) debes tener una cuenta de Docker Hub (en caso de no tener, crear una cuenta [sign up Docker Hub](https://hub.docker.com/signup)), las credenciales de tu cuenta de Docker Hub son las mismas para PWD ([PWD sign in](https://labs.play-with-docker.com/)). Luego de iniciar sesión debe aparecer las siguiente pantallas:  
 
-![ActPlayDockerImg1](ActPlayDockerImg1)  
-![ActPlayDockerImg1](ActPlayDockerImg2)  
+![ActPlayDockerImg1](ActPlayDockerImg1.png)  
+![ActPlayDockerImg2](ActPlayDockerImg2.png)  
 
 Ahora vamos a dirigirnos a PWD classroom ([PWD classroom](https://training.play-with-docker.com/)) donde encontraremos los tutoriales. En esta oportunidad desarrollaré el Stage 1 y 2 del tutorial llamado _Getting Started Walk-through for Developers_:  
 ## Getting Started Walk-through for Developers
