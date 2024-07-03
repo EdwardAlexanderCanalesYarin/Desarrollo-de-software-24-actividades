@@ -329,7 +329,7 @@ Verá el progreso a medida que la imagen se suba a Docker Hub.
 Observe que varias líneas del resultado dicen que la capa ya existe. Esto se debe a que Docker aprovechará las capas de solo lectura que son iguales a cualquier capa de imagen cargada anteriormente.
 ![ActPlayDockerImg1](ActPlayDockerImg48.png)
 
-Puede navegar hasta https://hub.docker.com/r/<your docker id>/ y ver las imágenes de Docker recién enviadas. Estos son repositorios públicos, por lo que cualquiera puede extraer la imagen; ni siquiera necesita una ID de Docker para extraer imágenes públicas. Docker Hub también admite repositorios privados.  
+Puede navegar hasta ```https://hub.docker.com/r/<your docker id>/``` y ver las imágenes de Docker recién enviadas. Estos son repositorios públicos, por lo que cualquiera puede extraer la imagen; ni siquiera necesita una ID de Docker para extraer imágenes públicas. Docker Hub también admite repositorios privados.  
 
 ![ActPlayDockerImg1](ActPlayDockerImg49.png)  
  
