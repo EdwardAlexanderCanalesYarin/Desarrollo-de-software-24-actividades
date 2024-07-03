@@ -221,11 +221,11 @@ public class EvaluarEventos {
 
 El cambio lo hice con el objetivo de que cada clase cumple con el princio de responsabilidad unica (cada clase se encarga de una tarea en especifico).
 
-Ejecucion de la clase principal, SistemaDeEventosClimaticos  
-![Img1](Image/EFImg1.png)  
-Se observa en la imagen los resultados esperados, dadas ciertas condiciones climaticas.
+Ejecucion de la clase principal, SistemaDeEventosClimaticos   
+![Img1](Image/EFImg1.png)   
+Se observa en la imagen los resultados esperados, dadas ciertas condiciones climaticas.  
 
-Ahora la ejecucion de las pruebas (modifique el tipo de dato, ya no se espera un String sino un Boolean) 
+Ahora la ejecucion de las pruebas (modifique el tipo de dato, ya no se espera un String sino un Boolean)   
 ![Img2](Image/EFImg2.png)  
 En la imagen se observa que los 12 tests pasaron (color verde), esto quiere decir que se refactorizo el codigo sin romper las pruebas (sin que fallen). Esto es una buena practica (refactoring seguro) pues se modifica el codigo fuente para mejorar su estructura, legibilidad y mantenibilidad sin alterar su comportamiento (pruebas unitarias siguen funcionando correctamente)  
 
