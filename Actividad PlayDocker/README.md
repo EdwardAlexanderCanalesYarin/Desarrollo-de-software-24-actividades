@@ -355,7 +355,7 @@ Pasos:
 **Paso 0: Script básico de extracción de enlaces**  
 Consulte la rama step0 y enumere los archivos que contiene.  
 ```git checkout step0```  
-```tree```
+```tree```  
 ![Img2](Image/PlayDockerT2S1Img2.png)  
 
 El archivo linkextractor.py es el interesante aquí, así que veamos su contenido:  
